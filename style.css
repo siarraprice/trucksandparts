@@ -10,6 +10,7 @@ Theme Domain: trucksandparts
 body {
   background: white;
   color: #074D9A;
+  font-family: 'Lato', sans-serif;
 }
 
 /* ------- THEME COLORS
@@ -18,15 +19,16 @@ Red: #EE3A43
 Light Grey: #EAEAEA
 Medium Grey: #A6A6A6
 Dark Grey: #545454
--------------------*/
+--------------------------------------*/
+
+/* ---------- THEME FONT
+font-family: 'Lato', sans-serif;
+---------------------------------------*/
 
 
-h1 {
-    color: green;
-}
-
-h3 {
-    text-transform: uppercase;
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 .col-md-4 {
