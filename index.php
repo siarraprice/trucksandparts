@@ -12,7 +12,7 @@
 
           <p><?php the_excerpt(); ?></p>
 
-          <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More about this article</a>
+          <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">More</a>
 
         </div>
     <?php

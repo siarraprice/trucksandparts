@@ -7,6 +7,20 @@ License: Open
 Theme Domain: trucksandparts
 */
 
+* {
+  background: white;
+  color: #074D9A;
+}
+
+/* ------- THEME COLORS
+Blue: #074D9A
+Red: #EE3A43
+Light Grey: #EAEAEA
+Medium Grey: #A6A6A6
+Dark Grey: #545454
+-------------------*/
+
+
 h1 {
     color: green;
 }
