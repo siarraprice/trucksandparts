@@ -12,17 +12,18 @@
 
   <body>
     <header>
+      <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name'); ?></a></h1>
 
-      <div class="header">
-        <div class="container center">
-          <div class="row">
 
-            <div class="three columns">
-              <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-            </div>
-
-          </div>
-        </div>
+      <div class="col-lg-12 d-flex align-items-center nav-bar-full">
+          <nav class="top-nav">
+          <?php
+            if(has_nav_menu('top-menu')){
+              wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
+            }else{
+              echo "Please select a top menu through the dashboard";
+            }
+            ?>
+          </nav>
       </div>
-
     </header>
