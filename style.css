@@ -34,10 +34,10 @@ h1, h2, h3 {
 
 .nav-bar-full {
   background: white;
-  margin: 0 auto;
   padding: 1em;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 0.9em;
+  float: right;
 }
 
 nav ul {
@@ -64,5 +64,32 @@ nav li a:hover {
 
 .top-nav {
   margin: 0 auto;
+  text-align: right;
+}
+
+/* -------- FOOTER -------- */
+
+footer {
+  font-size: 0.7rem;
+  margin: 0 auto;
+}
+
+.slider-footer-area {
+  background: #545454;
+  color: white;
+  padding: 6rem;
+}
+
+.widget-footer-area {
+  margin-top: 1rem;
+}
+
+.widget-footer-area .col-md-2 {
+  padding-left: 2rem;
+}
+
+.footer {
+  font-size: 0.7rem;
+  padding-top: 3rem;
   text-align: center;
 }

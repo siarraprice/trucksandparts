@@ -504,7 +504,65 @@ function register_my_menus(){
 add_action('init', 'register_my_menus');
 
 
+/*=========================
 
+
+Add Widget Areas to Theme
+
+
+==============================*/
+
+function blank_widgets_init(){
+  register_sidebar(array(
+    'name'          => ('right footer'),
+    'id'            => ('right-footer'),
+    'description'   => 'Right widget area in footer',
+    'before_widget' => '<div class="widget-footer-area">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
+    'name'          => ('left footer'),
+    'id'            => ('left-footer'),
+    'description'   => 'left widget area in footer',
+    'before_widget' => '<div class="widget-footer-area">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
+    'name'          => ('center footer'),
+    'id'            => ('center-footer'),
+    'description'   => 'Center widget area in footer',
+    'before_widget' => '<div class="widget-footer-area">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
+    'name'          => ('social media footer'),
+    'id'            => ('social-media-footer'),
+    'description'   => 'Social media area in footer',
+    'before_widget' => '<div class="social-media-area">',
+    'after_widget'  => '</div>'
+  ));
+
+  register_sidebar(array(
+    'name'          => ('slider area in footer'),
+    'id'            => ('slider-footer'),
+    'description'   => 'Slider in footer',
+    'before_widget' => '<div class="slider-footer-area">',
+    'after_widget'  => '</div>'
+  ));
+
+}
+
+
+add_action('widgets_init', 'blank_widgets_init');
 
 
 

@@ -7,11 +7,12 @@
 
 <?php get_header(); ?>
 
-<div class="container">
-  <div class="row">
+<main>
 
-   </div> <!-- row -->
- </div> <!-- container -->
+  <div class="container">
+
+
+   </div> <!-- container -->
 
 
 <?php get_footer(); ?>
