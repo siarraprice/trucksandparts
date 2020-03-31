@@ -36,21 +36,3 @@ h3 {
 .bold {
   font-weight: bold;
 }
-
-header {
-    background: #333;
-    padding: 2rem 0;
-    margin-bottom: 2rem;
-}
-
-header a {
-  color: white;
-}
-
-footer {
-    margin-top: 2rem;
-    padding: 3rem 0;
-    background: #333;
-    color: white;
-    text-align: center;
-}
