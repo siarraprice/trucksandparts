@@ -483,6 +483,19 @@ acf_add_local_field_group(array (
 };
 
 
+/*===================================
+
+Custom header logo
+
+====================================*/
+
+    $custom_image_header = array(
+        'width' => 225,
+        'height'=> 120,
+        'uploads' => true,
+);
+
+add_theme_support('custom-header', $custom_image_header);
 
 
 /*=========================
