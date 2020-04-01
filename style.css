@@ -43,9 +43,12 @@ h1, h2, h3 {
     border-color: #EE3A43;
 }
 
+.header-button {
+    padding-top: 24px;
+}
+
 .nav-bar-full {
   background: white;
-  padding: 1em;
   text-transform: uppercase;
   font-size: 0.9em;
   float: right;
@@ -60,9 +63,7 @@ nav li {
 }
 
 nav li a {
-  display: block;
   padding-left: 1.5em;
-  padding-right: 1.5em;
   color: #074D9A;
   transition-duration: 0.5s;
 }
