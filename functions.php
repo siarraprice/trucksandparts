@@ -526,6 +526,15 @@ Add Widget Areas to Theme
 ==============================*/
 
 function blank_widgets_init(){
+  register_sidebar (array(
+    'name'          => ('Right Header'),
+    'id'            => 'right-header',
+    'description'   => 'Right widget area in header',
+    'before_widget' => '<div class="widget-header">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="header-widget-title">',
+    'after_title'   => '</h3>'
+  ));
   register_sidebar(array(
     'name'          => ('right footer'),
     'id'            => ('right-footer'),
