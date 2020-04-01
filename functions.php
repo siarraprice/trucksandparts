@@ -491,7 +491,7 @@ Custom header logo
 
     $custom_image_header = array(
         'width' => 225,
-        'height'=> 120,
+        'height'=> 150,
         'uploads' => true,
 );
 
